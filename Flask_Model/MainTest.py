@@ -21,7 +21,6 @@ import string
 
 import textblob as tb
 from tqdm import tqdm
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedKFold
@@ -65,15 +64,16 @@ def compact(lst):  #remove empty strings from a list
 # compact([0, 1, False, 2, '', 3, 'a', 's', 34]) #Sample
 def convert(lst):
     return ([i for item in lst for i in item.split()])
-    with open('Data_Stop_Words_Storage.csv', 'r') as f:
-        stop_words = f.read().strip().split(',')  # we want to split the data on comma after this operation it will be stored as list
-#     stop_words=str(stop_words) #cant perform splitting on list so converting into str and then back again to list
-#     stop_words = stop_words.split() 
-#     stop_words=list(stop_words)
+
+with open('Data_Stop_Words_Storage.csv', 'r') as f:
+    stop_words = f.read().strip().split(',')  # we want to split the data on comma after this operation it will be stored as list
+    stop_words=str(stop_words)                 #cant perform splitting on list so converting into str and then back again to list
+    stop_words = stop_words.split() 
+    stop_words=list(stop_words)
     stop_words=convert(stop_words)
     stop_words= compact(stop_words)
     stop_words[-5:]
-    
+
     StopWords.extend(stop_words)
 
 
