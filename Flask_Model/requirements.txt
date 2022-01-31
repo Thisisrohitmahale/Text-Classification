@@ -4,27 +4,27 @@ alabaster==0.7.12
 # anaconda-navigator==2.1.1
 # anaconda-project==0.9.1
 analytics-python==1.4.0
-anyio==2.2.0
-appdirs==1.4.4
-argh==0.26.2
-argon2-cffi==20.1.0
-asn1crypto==1.4.0
-astroid==2.5
-astropy==4.2.1
-astunparse==1.6.3
-async-generator==1.10
-atomicwrites==1.4.0
-attrs==20.3.0
-autopep8==1.5.6
-Babel==2.9.0
-backcall==0.2.0
-backoff==1.10.0
-backports.functools-lru-cache==1.6.4
-backports.shutil-get-terminal-size==1.0.0
-backports.tempfile==1.0
-backports.weakref==1.0.post1
-bcrypt==3.2.0
-beautifulsoup4==4.9.3
+# anyio==2.2.0
+# appdirs==1.4.4
+# argh==0.26.2
+# argon2-cffi==20.1.0
+# asn1crypto==1.4.0
+# astroid==2.5
+# astropy==4.2.1
+# astunparse==1.6.3
+# async-generator==1.10
+# atomicwrites==1.4.0
+# attrs==20.3.0
+# autopep8==1.5.6
+# Babel==2.9.0
+# backcall==0.2.0
+# backoff==1.10.0
+# backports.functools-lru-cache==1.6.4
+# backports.shutil-get-terminal-size==1.0.0
+# backports.tempfile==1.0
+# backports.weakref==1.0.post1
+# bcrypt==3.2.0
+# # beautifulsoup4==4.9.3
 bitarray==1.9.2
 bkcharts==0.2
 black==19.10b0
@@ -49,12 +49,12 @@ colorlover==0.3.0
 colour==0.1.5
 comtypes==1.1.9
 conda==4.10.3
-conda-build==3.21.4
-conda-content-trust==0+unknown
-conda-package-handling==1.7.3
-conda-repo-cli==1.0.4
-conda-token==0.3.0
-conda-verify==3.4.2
+# conda-build==3.21.4
+# conda-content-trust==0+unknown
+# conda-package-handling==1.7.3
+# conda-repo-cli==1.0.4
+# conda-token==0.3.0
+# conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography==3.4.7
 cufflinks==0.17.3
