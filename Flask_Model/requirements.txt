@@ -74,7 +74,7 @@ entrypoints==0.3
 et-xmlfile==1.0.1
 fastcache==1.1.0
 filelock==3.0.12
-flake8==3.9.0
+# flake8==3.9.0
 Flask==1.1.2
 Flask-WTF==1.0.0
 flatbuffers==2.0
@@ -216,9 +216,9 @@ pycurl==7.43.0.6
 pydantic==1.8.2
 pydocstyle==6.0.0
 pyerfa==1.7.3
-pyflakes==2.2.0
-Pygments==2.8.1
-PyJWT==2.1.0
+# pyflakes==2.2.0
+# Pygments==2.8.1
+# PyJWT==2.1.0
 pyLDAvis==3.3.1
 pylint==2.7.4
 pyls-black==0.4.6
