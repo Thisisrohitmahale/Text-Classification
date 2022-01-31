@@ -42,7 +42,7 @@ cffi==1.14.5
 chardet==4.0.0
 chart-studio==1.1.0
 click==7.1.2
-cloudpickle==1.6.0
+cloudpickle
 clyent==1.2.2
 colorama==0.4.4
 colorlover==0.3.0
@@ -114,21 +114,21 @@ Jinja2==2.11.3
 joblib==1.0.1
 json5==0.9.5
 jsonschema==3.2.0
-jupyter==1.0.0
-jupyter-client==6.1.12
-jupyter-console==6.4.0
-jupyter-contrib-core==0.3.3
-jupyter-contrib-nbextensions==0.5.1
-jupyter-core==4.7.1
-jupyter-highlight-selected-word==0.2.0
-jupyter-latex-envs==1.4.6
-jupyter-nbextensions-configurator==0.4.1
-jupyter-packaging==0.7.12
-jupyter-server==1.4.1
-jupyterlab==3.0.14
-jupyterlab-pygments==0.1.2
-jupyterlab-server==2.4.0
-jupyterlab-widgets==1.0.0
+# jupyter==1.0.0
+# jupyter-client==6.1.12
+# jupyter-console==6.4.0
+# jupyter-contrib-core==0.3.3
+# jupyter-contrib-nbextensions==0.5.1
+# jupyter-core==4.7.1
+# jupyter-highlight-selected-word==0.2.0
+# jupyter-latex-envs==1.4.6
+# jupyter-nbextensions-configurator==0.4.1
+# jupyter-packaging==0.7.12
+# jupyter-server==1.4.1
+# jupyterlab==3.0.14
+# jupyterlab-pygments==0.1.2
+# jupyterlab-server==2.4.0
+# jupyterlab-widgets==1.0.0
 keras==2.7.0
 Keras-Preprocessing==1.1.2
 keyring==22.3.0
