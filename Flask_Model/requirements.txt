@@ -283,8 +283,8 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 sphinxcontrib-websupport==1.2.4
-spyder==4.2.5
-spyder-kernels==1.10.2
+# spyder==4.2.5
+# spyder-kernels==1.10.2
 SQLAlchemy==1.4.7
 srsly==2.4.2
 statsmodels==0.12.2
@@ -327,7 +327,7 @@ wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==1.0.1
 wheel==0.36.2
-widgetsnbextension==3.5.1
+# widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 win-unicode-console==0.5
 wincertstore==0.2
